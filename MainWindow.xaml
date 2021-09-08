@@ -25,12 +25,12 @@
         <TabControl Margin="0,24,0,24">
             <TabItem Header="Commands">
                 <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
-                    <TextBox x:Name="wrdCommandTextBox" FontFamily="Consolas"/>
+                    <TextBox x:Name="wrdCommandTextBox" FontFamily="Consolas" AcceptsReturn="True"/>
                 </ScrollViewer>
             </TabItem>
             <TabItem Header="Strings">
                 <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
-                    <TextBox x:Name="wrdStringsTextBox" FontFamily="Consolas"/>
+                    <TextBox x:Name="wrdStringsTextBox" FontFamily="Consolas" AcceptsReturn="True"/>
                 </ScrollViewer>
             </TabItem>
         </TabControl>
